@@ -10,10 +10,11 @@
     <script type="module">
       import { sayHello } from "./say-hello.js";
       import { sayGoodbye } from "./say-goodbye.ts";
+      import { v4 as uuid } from "uuid";
 
       sayHello("cuyyyy");
-
       sayGoodbye("cuyyyy");
+      console.log(uuid());
     </script>
   </body>
 </html>
